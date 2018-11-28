@@ -9,7 +9,6 @@
    function sortImg() {
 
     var currentBtn = $(this).data('color');
-    console.log(currentBtn);
 
     contantImg.each(function(index , elem) {
 
