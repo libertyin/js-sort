@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg") center no-repeat / cover;
+    height: 100vh;
+    color: #696969;
+}
+
+.grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.btns {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #00FF7F;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button:focus {
+    outline: transparent;
+}
+
+button:hover {
+    background-color: rgb(0, 179, 89);
+}
+
+.pets {
+
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.pets img {
+    padding: 10px;
+}
